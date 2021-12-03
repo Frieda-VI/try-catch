@@ -1,0 +1,12 @@
+{
+  "name": "TryCatch",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "try-catch": {
+        "$path": "try-catch"
+      }
+    }
+  }
+}
