@@ -48,12 +48,12 @@ ExceptionHandler.Try = function(FunctionArray: table)
 
         if ProcessError == false then
             --// Flagging the Error which took place in the Catch Method \\--
-            warn("Function returned an Error, \n\n", CodeError)
+            warn("Function returned an Error, \n\n" .. tostring(CodeError))
         end
         return ProcessError
     else
         --// Warns the Error as no Error handler were provided \\--
-        warn("Unable to Handle Error, \n\n".. Error)
+        warn("Unable to Handle Error, \n\n".. tostring(Error))
         return false
 	end
 end
